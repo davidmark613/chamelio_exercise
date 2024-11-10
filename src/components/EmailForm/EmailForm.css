@@ -1,0 +1,50 @@
+.emailForm {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.inputBox {
+    position: relative;
+    max-width: 922px;
+    padding: 5px 14px;
+    display: flex;
+    flex-grow: 1;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+}
+
+.inputBox input,
+.inputBox input:focus {
+    width: 0;
+    flex-grow: 1;
+    border: none;
+    appearance: none;
+    border-color: transparent;
+    box-shadow: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.emailForm button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: #1852E7;
+    color: #fff;
+    border: 1px solid #336CFF;
+    cursor: pointer;
+}
+
+.emailForm button:active,
+.emailForm button:hover {
+    background-color: #1046d0;
+    border: 1px solid #1f58e8;
+    cursor: pointer;
+}
+
+.emailForm button:disabled {
+    background-color: #cacbd0;
+    border: 1px solid #cacbd0;
+    cursor: default;
+}

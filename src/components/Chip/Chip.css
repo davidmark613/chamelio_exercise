@@ -1,0 +1,26 @@
+.chip {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ecf1fc;
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.chip-text {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #253047;
+}
+
+.chip button,
+.chip button:hover,
+.chip button:active {
+    padding: 0 6px;
+    border: none;
+    background-color: transparent;
+    color: #253047;
+    font-size: 14px;
+}

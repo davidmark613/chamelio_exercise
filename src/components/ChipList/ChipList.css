@@ -1,0 +1,35 @@
+.chipList {
+    display: flex;
+    gap: 8px;
+    overflow: hidden;
+}
+
+.counterContainer {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ecf1fc;
+    display: flex;
+    align-items: center;
+}
+
+.counter {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #253047;
+}
+
+.hideList {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 400px;
+    padding: 5px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+}
